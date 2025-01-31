@@ -1,0 +1,18 @@
+-------- check index.html file later have some error there
+
+
+
+first we setup the project by installing express, socket.io, ejs
+
+then we created the server by running the express server on app and listen to port 3000
+"const express = require('express');
+const app = express();
+
+app.get('/', function(req,res){
+    res.send("hey");
+})
+
+app.listen(3000);"
+
+
+Now we setup socket.io
